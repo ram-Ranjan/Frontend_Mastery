@@ -27,7 +27,7 @@ html,body{
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background-color: #daff76;
+    background-color: #bafd02;
     position: fixed;
     filter: blur(140px);
     z-index: 9;
@@ -235,7 +235,7 @@ video{
 }
 
 #card1{
-    background-image: url("assets/sidcup-family-golf-main/Assests/card1.avif");
+    background-image: url("./Assests/card1.avif");
 }
 
 #card1:hover{
@@ -245,7 +245,7 @@ video{
 
 
 #card2{
-    background-image: url("assets/sidcup-family-golf-main/Assests/card2.webp");
+    background-image: url("./Assests/card2.webp");
 }
 
 #card1:hover{
@@ -254,7 +254,7 @@ video{
 }
 
 #card3{
-    background-image: url("assets/sidcup-family-golf-main/Assests/card3.avif");
+    background-image: url("./Assests/card3.avif");
 }
 
 #card1:hover{
@@ -278,7 +278,7 @@ video{
 }
 
 .cards:hover{
-    transform: rotate3d(-1,1,0,20deg);
+    transform: rotate3d(-1,1,0,10deg);
 
 
 }
