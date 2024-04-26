@@ -11,6 +11,7 @@
 html,body{
     height:  100%;
     width: 100%;
+  
 }
 
 
@@ -213,7 +214,7 @@ video{
 }
 
 #cards-container{
-    background-color: red;
+    background-color: black;
     height: 60vh;
     display: flex;
     align-items: center;
@@ -232,6 +233,7 @@ video{
     background-size: cover ;
     background-repeat: no-repeat;
     transition: all .5s;
+    overflow: hidden;
 }
 
 #card1{
@@ -311,7 +313,20 @@ video{
 
 .overlay p{
     color:#000;
+    font-size: 14px;.overlay h4{
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.overlay p:hover{
+    color:#000;
     font-size: 14px;
+
+}
 
 }
 
@@ -320,7 +335,9 @@ video{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to left bottom,#52BA2F,#A3D421);
+    background-color: red;
+    background: linear-gradient(to left bottom , #15a13a,#a2dc23) ;
+  
 
 }
 
@@ -348,4 +365,10 @@ video{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#page3>p{
+    font-size: 30px;
+    font-weight: 700;
+    width: 45%;
 }
