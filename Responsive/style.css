@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Open Sans',sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    color:#333;
+    background-color: #fff;
+    /* height: 100%; */
+
+}
+
+h2{
+    font-size: 5vmin;
+    /* isse jyada nii hoga */
+}
+p{
+    font-size: 15vmax ;
+    /* isse kam niii hoga  */
+}
+
+#box{
+    height: 50vh;    /* since there is no parent height which by universal is 0 */
+
+    width: 500px;
+    /* inner Element can affect outer element also */
+    background-color: crimson;
+}
+/* %  Depends on parent  */
+#inner{
+    height: 1vw;
+    width: 10vw;
+    background-color: green;
+    font-size:30px;
+    /* em is multiples of parent */
+}
+
+/* vw- viewport width and vh Height depends on screen size */
+ /* vw and vh changes with change is screen size i.e toward responsive */
+
+
+ #parent{
+    background-color: #dadada;
+    width: 60%;
+    font-size: 30px;
+ }
+
+ /* 1rem=px it depends upon root i.e html */
+
+ h1{
+    font-size:2rem;
+    /* became 60px */
+ }
+ h2{
+    font-size: 1rem;
+ }
+ h3{
+    font-size: 1.5rem;
+ }
